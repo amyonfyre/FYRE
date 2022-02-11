@@ -1,0 +1,22 @@
+variable a is person 1 and variable b is person 2
+
+if (a is rock and b is scissors)
+	a wins
+
+if (a is scissors and b is paper)
+	a wins
+
+if (a is paper and b is scissors)
+	b wins
+
+if (b is rock and a is scissors)
+	b wins
+
+if (b is scissors and a is paper)
+	b wins
+
+if (b is paper and a is scissors)
+	a wins
+
+if (b equals a)
+	no winner
