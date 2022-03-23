@@ -319,11 +319,21 @@ html, body {
   /* ########### contact us ########### */
   /* ############################## */
 
-  .form-hero-area {
+  .form {
     display: flex;
     align-items: center;
+    max-width: 500px;
   }
 
-  .form {
+  .form-hero-area {
+    
+      background: url(images/contactus.jpg) center center no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      font-family: 'open sans', sans-serif;
+      min-height: 80%;
+    }
 
-  }
+  
