@@ -319,6 +319,11 @@ html, body {
   /* ########### contact us ########### */
   /* ############################## */
 
-  .form {
+  .form-hero-area {
     display: flex;
+    align-items: center;
+  }
+
+  .form {
+
   }
