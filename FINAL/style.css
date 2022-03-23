@@ -165,7 +165,7 @@ html, body {
   /* #################################### */
   
   .hero-area {
-    background: url(images/amylaughmountain2.png) center center no-repeat;
+    background: url("./images/amylaughmountain2.png") center center no-repeat;
     background-size: cover;
     display: flex;
     justify-content: flex-end;
