@@ -172,7 +172,7 @@ html, body {
     align-items: center;
     font-family: 'open sans', sans-serif;
     min-height: 80%;
-    
+
   }
   
 
@@ -321,12 +321,14 @@ html, body {
   /* ############################## */
 
   .form {
-    display: flex;
+    display: block;
     align-items: center;
     max-width: 500px;
+    min-width: 200px;
     align-content: center;
     margin-top: 2em;
     margin-left:auto;
+    margin-right: auto;
   }
 
   .form-hero-area {
