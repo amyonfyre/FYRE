@@ -165,7 +165,7 @@ html, body {
   /* #################################### */
   
   .hero-area {
-    background: url(images/amylaughmountain2.png) center center no-repeat;
+    background: url(images/underconstruction.jpg) center center no-repeat;
     background-size: cover;
     display: flex;
     justify-content: flex-end;
@@ -173,98 +173,8 @@ html, body {
     font-family: 'open sans', sans-serif;
     min-height: 80%;
   }
-  
 
-  .inset-div {
-    background-color: rgba(255,255,255,0.9) ;
-    padding: 30px;
-    width: 275px;
-    height: 250px;
-    margin: 30px 30px 30px 0;
-    border-radius: 20px;
-  }
 
-  .hero-area h2{
-    font-family: sacramento;
-    font-size: 3em;
-    text-align:center;
-    color:#9d134e;
-    font-weight: bold
-  }
-
-  .hero-area p {
-    text-align:center;
-  }
-  
-  .main-cta {
-    background-color: #9d134e;
-    border-bottom: #FFBBC9 solid 3px;
-    color: white;
-  }
-  
-   /* ########################################## */
-  /* ########### About Section ########### */
-  /* ########################################## */
-  
-  .about {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    margin: 30px;
-
-    padding: 20px 10px 20px 10px;
-    grid-gap: 15px;
-  }
-
-  .about-one {
-    overflow: hidden;
-    margin-top: 20px;
-    padding: 20px;
-  }
-
-  .about-image img {
-    max-width: 100%;
-  }
-
-  .about h2 {
-    color:#9d134e;
-  }
-
-  
-
-  /* ########################################## */
-  /* ########### Three-wide section ########### */
-  /* ########################################## */
-  
-  .three-boxes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  
-  .one-third {
-    border-right: 1px solid lightgray;
-    margin: 10px 0;
-    padding: 10%;
-    font-family: open sans;
-    text-align: center;
-    
-  }
-  
-  .one-third .cta {
-    background-color: #9d134e;
-    border-bottom: 3px solid #FFBBC9;
-    color: white;
-    padding: 10px;
-    width: 70%;
-    margin: 0 auto;
-  }
-  
-  .one-third h2 {
-    font-family: open sans;
-    font-size: 1.5em;
-    font-weight: bold;
-    color:#9d134e;
-  }
-  
    /* ############################## */
   /* ########### Responsive ########### */
   /* ############################## */
@@ -298,18 +208,4 @@ html, body {
       margin-left: 10px;
      
     } */
-  }
-
-
-  /* ############################## */
-  /* ########### Footer ########### */
-  /* ############################## */
-  .footer-site {
-    background-color: white;
-    color:#9d134e;
-    text-align: left;
-    padding: 10px 20px 10px 20px;
-    font-size: 14px;
-    text-transform:capitalize;
-    font-family: josefin sans;
   }
