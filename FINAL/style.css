@@ -323,6 +323,7 @@ html, body {
     display: flex;
     align-items: center;
     max-width: 500px;
+    align-content: center;
   }
 
   .form-hero-area {
