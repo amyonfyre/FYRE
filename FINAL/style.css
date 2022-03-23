@@ -1,0 +1,321 @@
+/* ################################################## */
+/* ########### Global classes / overrides ########### */
+/* ################################################## */
+html, body {
+    height: 100%;
+    font-family: 'open sans', sans-serif;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 15px 0;
+  }
+  
+
+  
+  /* Colors */
+  /* pink: #9d134e */
+  /* Light yellow: #ffd900 */
+  /* Light pink: #FFBBC9*/
+  /*  */
+  
+  a:link {
+    text-decoration: none;
+  }
+
+  .main-nav a:visited {
+    color: #9d134e
+  }
+
+  a:hover {
+    color:#FFBBC9
+  }
+
+  a.cta:hover {
+    background-color:#FFBBC9;
+    color: #9d134e;
+  }
+ 
+  .main-nav a:hover {
+    color:#FFBBC9;
+  }
+  
+  a:focus {
+    color:#FFBBC9;
+  }
+  
+  .cta {
+    border-radius: 20px;
+    color: #9d134e;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    display: block;
+  }
+  
+  /* ############################## */
+  /* ########### Header ########### */
+  /* ############################## */
+
+  .site-header {
+    background-color: white;
+    opacity: 0.8;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    padding: 5px 5px 5px 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 20px;
+  }
+  
+  /* .main-nav {
+   flex: 50%;
+   /* justify-content: flex-end; */
+ /* } */ 
+
+ .logo {
+  flex: 50%;
+}
+/* 
+  .site-header-tall {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px 5px 5px;
+  } */
+
+  
+
+  .site-header h1 {
+    color: #9d134e;
+  }
+
+  .amyonfyre-logo {
+    max-width: 30%;
+    /* min-width: 300px; */
+    /* padding: 5px 10px; */
+  }
+  
+  .main-nav ul{
+    color: #9d134e;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    /* gap: 20px; */
+    font-family: 'josefin sans', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-right: 30px;
+    padding-top: 20px;
+    /* letter-spacing: .2em; */
+  }
+  
+  .main-nav li {
+    margin-left: 2em;
+   
+  }
+
+   .site-header-short {
+    background-color: white;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 5px 5px 5px 5px; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 20px;
+    height: 95px;
+  }
+
+  .site-header-short .amyonfyre-logo {
+    /* max-width: 20%; */
+    width: 160px;
+    margin-top: 10px;
+    
+    /* padding: 5px 10px; */
+  }
+  
+  
+
+  .site-header-short .main-nav ul{
+    color: #9d134e;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    /* padding-bottom: 20px; */
+    gap: 20px;
+    font-family: 'josefin sans', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* letter-spacing: .2em; */
+  }
+   
+  
+  
+  /* #################################### */
+  /* ########### Hero section ########### */
+  /* #################################### */
+  
+  .hero-area {
+    background: url(images/amylaughmountain2.png) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'open sans', sans-serif;
+    min-height: 80%;
+  }
+  
+
+  .inset-div {
+    background-color: rgba(255,255,255,0.9) ;
+    padding: 30px;
+    width: 275px;
+    height: 250px;
+    margin: 30px 30px 30px 0;
+    border-radius: 20px;
+  }
+
+  .hero-area h2{
+    font-family: sacramento;
+    font-size: 3em;
+    text-align:center;
+    color:#9d134e;
+    font-weight: bold
+  }
+
+  .hero-area p {
+    text-align:center;
+  }
+  
+  .main-cta {
+    background-color: #9d134e;
+    border-bottom: #FFBBC9 solid 3px;
+    color: white;
+  }
+  
+   /* ########################################## */
+  /* ########### About Section ########### */
+  /* ########################################## */
+  
+  .about {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin: 30px;
+
+    padding: 20px 10px 20px 10px;
+    grid-gap: 15px;
+  }
+
+  .about-one {
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .about-image img {
+    max-width: 100%;
+  }
+
+  .about h2 {
+    color:#9d134e;
+  }
+
+  
+
+  /* ########################################## */
+  /* ########### Three-wide section ########### */
+  /* ########################################## */
+  
+  .three-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .one-third {
+    border-right: 1px solid lightgray;
+    margin: 10px 0;
+    padding: 10%;
+    font-family: open sans;
+    text-align: center;
+    
+  }
+  
+  .one-third .cta {
+    background-color: #9d134e;
+    border-bottom: 3px solid #FFBBC9;
+    color: white;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .one-third h2 {
+    font-family: open sans;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#9d134e;
+  }
+  
+   /* ############################## */
+  /* ########### Responsive ########### */
+  /* ############################## */
+
+  @media screen and (min-width: 1600px) {
+    .three-boxes {
+        grid-template-columns: 1fr 1fr 1fr;
+  
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 1199px) and (min-width: 769px){
+    .about{
+  grid-template-columns: 1fr 1fr;
+  }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .three-boxes {
+      grid-template-columns: 1fr;
+    }
+    .about {
+      grid-template-columns: 1fr;
+    }
+    .site-header .amyonfyre-logo {
+      min-width: 200px;
+    }
+    /* .site-header-short .main-nav li {
+      margin-left: 10px;
+     
+    } */
+  }
+
+
+  /* ############################## */
+  /* ########### Footer ########### */
+  /* ############################## */
+  .footer-site {
+    background-color: white;
+    color:#9d134e;
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+    font-size: 14px;
+    text-transform:capitalize;
+    font-family: josefin sans;
+  }
