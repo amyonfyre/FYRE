@@ -313,3 +313,12 @@ html, body {
     text-transform:capitalize;
     font-family: josefin sans;
   }
+
+
+   /* ############################## */
+  /* ########### contact us ########### */
+  /* ############################## */
+
+  .form {
+    display: flex;
+  }
