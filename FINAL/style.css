@@ -141,8 +141,8 @@ html, body {
   }
 
   .site-header-short .amyonfyre-logo {
-    /* max-width: 20%; */
-    width: 160px;
+    max-width: 15%;
+    min-width: 100px;
     margin-top: 10px;
     
     /* padding: 5px 10px; */
