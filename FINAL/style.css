@@ -33,6 +33,10 @@ html, body {
     color: #9d134e
   }
 
+  .logo a:visited {
+    color:#9d134e;
+  }
+
   a:hover {
     color:#FFBBC9
   }
@@ -146,7 +150,7 @@ html, body {
   
   
 
-  .site-header-short .main-nav ul{
+  .site-header-short .main-nav ul {
     color: #9d134e;
     list-style: none;
     display: flex;
@@ -159,11 +163,14 @@ html, body {
     font-weight: bold;
     /* letter-spacing: .2em; */
   }
+
+  
+  
    
-  .site-header-short .main-nav li {
+  /* .site-header-short .main-nav li {
     margin-left: 0;
    
-  }
+  } */
   
   /* #################################### */
   /* ########### Hero section ########### */
@@ -319,7 +326,6 @@ html, body {
     text-align: center;
     padding: 10px 20px 10px 20px;
     font-size: 10px;
-    /* text-transform:capitalize; */
     font-family: josefin sans;
   }
 
@@ -377,9 +383,16 @@ html, body {
         display:block;
         font-size: 50px;
         margin-right: 5%;
-        
+        color:#9d134e;
     }
 
+    /* Still not sure how to change that hamburger on the short menu to the right edge */
+    /* .site-header-short .nav-toggle {
+      display:block;
+      font-size: 50px;
+      margin-right: 5%;
+      
+  } */
   
 
     .main-nav-mobilehide {
