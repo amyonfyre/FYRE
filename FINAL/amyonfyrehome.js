@@ -15,16 +15,24 @@ function scrollFunction() {
 }
 
 
-
+let navToggle = document.querySelector("#nav-toggle")
 // mobile nav
 
 document.addEventListener('DOMContentLoaded', function(event) {
 
-    document.querySelector("#nav-toggle").addEventListener('click',function(e){
+    navToggle.addEventListener('click',function(e){
         e.preventDefault();
 
         document.querySelector(".main-nav").classList.toggle("main-nav-mobilehide");
-
+		// if (navToggle.innerHTML="&#9776;") {
+		// 	navToggle.innerHTML="X";
+		// 	console.log(navToggle.innerHTML)
+		// } else if (navToggle.innerHTML="X") {
+		// 	navToggle.innerHTML="&#9776;"
+		// } else console.log(navToggle.innerHTML)
+		
+	
+		
     });
 
 });
