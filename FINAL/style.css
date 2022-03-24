@@ -393,3 +393,11 @@ html, body {
   display:none;
 }
 }
+
+@media screen and (min-width: 1200px) {
+  .nav-toggle {
+    color:white;
+    font-size: 32px;
+    display:none;
+  }
+}
