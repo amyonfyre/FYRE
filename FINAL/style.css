@@ -355,8 +355,8 @@ html, body {
   @media screen and (max-width:768px) {
 
     .main-nav {
-        margin-top:20px;
-        width:100%;
+        /* margin-top:20px; */
+        /* width:100%; */
         overflow:hidden;
     }
 
@@ -365,7 +365,7 @@ html, body {
     }
 
     .main-nav li {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .nav-toggle {
@@ -383,21 +383,21 @@ html, body {
     display: block;
 }
 
-.main-nav {
+/* .main-nav {
     margin-top:20px;
-}
+} */
 
 .nav-toggle {
   color:white;
-  font-size: 32px;
+  font-size: 30px;
   display:none;
 }
 }
 
 @media screen and (min-width: 1200px) {
   .nav-toggle {
-    color:white;
-    font-size: 32px;
+    /* color:white;
+    font-size: 30px; */
     display:none;
   }
 }
