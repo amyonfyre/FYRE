@@ -1,3 +1,4 @@
+// header shrink
 
 window.onscroll = function() {scrollFunction()};
 let header=document.querySelector(".header");
